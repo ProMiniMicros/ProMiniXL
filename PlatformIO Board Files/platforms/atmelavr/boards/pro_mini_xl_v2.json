@@ -1,0 +1,28 @@
+{
+  "build": {
+    "core": "MightyCore",
+    "extra_flags": "-DARDUINO_AVR_ATmega1284",
+    "f_cpu": "20000000L",
+    "mcu": "atmega1284p",
+    "variant": "pro_mini_xl_v2"
+  },
+  "bootloader":{
+    "led_pin": "C6"
+  },
+  "debug": {
+    "simavr_target": "atmega1284p"
+  },
+  "frameworks": [
+    "arduino"
+  ],
+  "name": "Pro Mini XL - v2",
+  "upload": {
+    "maximum_ram_size": 16384,
+    "maximum_size": 130048,
+    "protocol": "arduino",
+    "require_upload_port": true,
+    "speed": 115200
+  },
+  "url": "https://prominimicros.com",
+  "vendor": "Pro Mini Micros"
+}
